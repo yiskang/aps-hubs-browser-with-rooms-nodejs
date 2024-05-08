@@ -28,7 +28,7 @@ or [macOS Terminal](https://support.apple.com/guide/terminal/welcome/mac))
 ### Setup & Run
 
 - Clone this repository
-- Install dependencies: `yarn install` or `npm install`
+- Install dependencies: `pnpm install` or `npm install`
 - Setup environment variables:
   - `APS_CLIENT_ID` - your APS application client ID
   - `APS_CLIENT_SECRET` - your APS application client secret
@@ -37,7 +37,7 @@ or [macOS Terminal](https://support.apple.com/guide/terminal/welcome/mac))
     - For applications deployed to a custom domain, the callback URL is `http://<your-domain>/api/auth/callback` or `https://<your-domain>/api/auth/callback`
     - Do not apst to update the callback URL for your application in https://aps.autodesk.com/myapps as well
   - `SERVER_SESSION_SECRET` - arbitrary phrase used to encrypt/decrypt server session cookies
-- Run the server: `yarn start` or `npm start`
+- Run the server: `npm start`
 
 > When using [Visual Studio Code](https://code.visualstudio.com),
 you can specify the env. variables listed above in a _.env_ file in this
